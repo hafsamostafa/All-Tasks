@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito&display=swap)
+body {font-family: 'Nunito', sans-serif;}
+
+body{background-color: whitesmoke;}
+
+nav{background-image: url(https://cdn.pixabay.com/photo/2017/04/19/13/03/coffee-2242213_960_720.jpg); background-color: #eb801d;}
+nav{background-size: cover;}
+nav{list-style-type: none;}
+
+
+button {
+
+    display: inline-block;
+    background-color: #eb801d;
+    border-radius: 50px;
+    border: 2px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    align-items: center;
+    float: right;
+   
+}
+
+article {background-color: #eb801d;}
+div.list2 p:: {list-style-type: none}
+
+article {background-color: #eb801d;}
+div.list2 p:: {list-style-type: none}
+
+div.figures img: { opacity: 0.8;
+
+}
+
+hr {
+    width:10%;
+    height:2px;
+    background-color: rgb(212, 74, 74);
+    border:none;
+    border-radius:8px;
+    }
+ul
+{
+  display:flex;  
+  list-style:none;
+}
+
+hr {
+    border: 3px solid rgb(212, 65, 20);
+    border-radius: 5px;
+    border-spacing: 5px;
+   }
+
+   div.download { background-color: #8e8e97;}
