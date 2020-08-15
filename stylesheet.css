@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* Reset */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main Style */
+body , html{
+    font-family: 'Chilanka', cursive;;
+    line-height: 1.7rem;
+}
+a{
+    text-decoration: none;
+    color: #black;
+}
+ul{
+    list-style: none;
+}
+/* Utility Classes */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.clear{
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.bg-dark{
+    background-color: rgb(63, 60, 60);
+}
+.text-primary{
+    color: red;
+}
+.bg-primary{
+    background-color: #red;
+}
+.text-white{
+    color: #fff;
+}
+/* Navbar Style */
+.navbar{
+    padding: 16px 0;
+}
+.navbar .nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .nav-items .logo a{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+.navbar .nav-items .links ul li{
+    display: inline-block;
+    padding: 0 8px;
+}
+.navbar .nav-items .links ul li a:hover{
+    color: red;
+}
+
+/* Showcase Style */
+.showcase{ 
+    height: 400px;
+
+    background: url("NY.jpg") no-repeat
+     center center/cover;
+}
+.showcase .showcase-text{
+    padding-top: 140px;
+}
+.showcase .subheading{
+    font-size: 1.8rem;
+    word-spacing: .9px;
+    font-style: italic;
+    padding: .9px 0;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: 600;
+}
+}
+.showcase .showcase-text .mashead-heading{
+    font-size: 5rem;
+    word-spacing: .9px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .9px 0;
+    text-shadow: 1px 1px 1px #fff;
+}
+.showcase .showcase-text button{
+    background-color: black;
+    color: whitesmoke
+    font-size: .6rem;
+    margin-top: 2px;
+    border-radius: 5px;
+    padding: 2px;
+    border: none;
+}
+.showcase .showcase-text button:hover{
+    background-color: white;
+    color: red;
+  
+    /* Elements Style */
+.Elemnts{
+    margin-top: 100px;
+}
+.Elements .row{
+    display: flex;
+    margin-top: 50px;
+}
+.Elements .row .col{
+    padding: 20px;
+}
+.Elements .row .col .icon i{
+    padding: 10px;
+    border-radius: 20%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.Elements .row .col h3{
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+/* Our Work Style */
+.our_work .row{
+    size: 300px;
+}
+.our_work .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.our_work p{
+    margin: 20px 0 45px 0;
+}
+.our_work .row .col{
+    margin: -6px 0;
+}
+.our_work .row .col img:hover{
+    opacity: .8;
+}
+.our_work h3,
+    font-size: 3rem;
+}
+.our_work h3{
+    margin: 20px auto;
+}
