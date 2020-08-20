@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/* Reset */
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main Style */
+body , html{
+    font-family: 'Questrial', sans-serif;
+    line-height: 2rem;
+}
+a{
+    text-decoration: none;
+    color: darkorange;
+}
+ul{
+    list-style: none;
+}
+
+/* Utility Classes */
+.container{
+    width: 20%%;
+    margin: 0 auto;
+    padding: 0 0;
+}
+.clear{
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.bg-dark{
+    background-color: black;
+}
+.text-primary{
+    color: darkorange;
+}
+.bg-primary{
+    background-color:whitesmoke;
+}
+.text-white{
+    color: white;
+}
+/* Navbar Style */
+.navbar{
+    padding: 20px;
+    margin-top: 2rem;
+}
+.navbar .nav-items{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.navbar .nav-items .logo a{
+    font-size: 2rem;
+    color: white;
+    font-weight: 900;
+    font-display: bold;
+    margin-top: 6rem;
+}
+.navbar .nav-items .links ul li{
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.navbar .nav-items .links ul li a:hover{
+    color: darkorange;
+}
+/*.navbar .nav-items .links ul li:not(:nth-child(Home))a:hover{
+    color: darkorange;
+}
+ ul:hover li:not(:first-child){*/
+    .navbar .nav-items .links ul li a:hover li :not(:first-child){ 
+        color: darkorange;
+    }
+
+
+/* Showcase Style */
+.showcase{ 
+    height: 400px;
+    background: url('banner-bg.png') no-repeat
+     center center/cover;
+}
+.showcase .container{
+    width: 80%;
+
+}
+.showcase .showcase-text{
+    padding-top: 80px;
+    transform: skew(x);
+}
+.showcase .subheading{
+    font-size: 4rem;
+    word-spacing: 8px;
+    padding: 30px 0;
+    font-weight: 400;
+    color: black;
+    text-align: left;
+}
+
+
+.showcase .showcase-text .mashead-heading{
+    font-size: 5rem;
+    word-spacing: 12px;
+    font-weight: 900;
+    padding: 40px 0;
+    text-align: left;
+}
+.showcase .showcase-text button{
+    font size: 1.4rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    margin-right: 50px;
+}
+.showcase .showcase-text button:hover{
+    background-color: darkorange;  
+    color: none;
+} 
+/* About Style */
+.about-us{
+    padding: 25px;
+    margin-top:  25px;
+    margin-bottom: 25px;
+    }
+
+.about-us .row{
+    display: flex;
+    justify-content: auto;
+    align-items: right;
+    flex-wrap: auto;
+    float: right;
+}
+.about-us .h2 {
+    text-align: left;
+    color: darkorange;
+    size: 100px;
+    font-weight: 900;
+    font-display: bold;
+}
+.about-us p{
+    padding-top: 25px;
+    text-align: left;
+    flex-wrap: wrap;
+    display: flex;
+}
+.about-us .row .col{
+    margin: 25px;
+}
+.about-us .container col{
+    margin: 25px;
+    padding-top: 25px;
+    text-align: right;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+.about-us button{
+    margin-top: 20px;
+    padding: 16px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+.about-us button:hover{
+    color: white;
+    background-color: darkorange;
+}
+
+/* Galary Area */
+
+.galary .col {
+    display: flex;
+    float: auto;
+    width: 33.33%;
+    padding: 10px;
+   
+  }
+.galary .row {
+    
+    display: table;
+    clear: both;
+  }
+  .galary .row .col{
+    padding: 20px;
+    flex-flow: wrap;
+}
+.galary h2{
+    font-size: 3rem;
+}
+.galary :hover{
+    opacity: .8;
+    mask-image: url('search-icon.png') ;
+}
+/*Services */
+
+.services {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.services .row{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.services .row .col{
+    padding: 10px;
+    margin: 10px;
+    background-color: darkorange;
+}
+.services .row .col .icon i{
+    padding: 10px;
+    border-radius: 20%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.services .row .col h3{
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+.services {
+
+    background: url('services-bg.png');
+    background-repeat: none;
+    background-position: center;
+    position: sticky;
+}
+
+.services .container :hover {
+    background-color: white;
+
+}
