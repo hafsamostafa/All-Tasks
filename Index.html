@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="calculator done by JS">
+    <meta name="keywords" content="JS, calculator, test, JS functions">
+    <meta name="author" content="Hafsa">
+
+    <title>Calculator</title>
+</head>
+<body>
+        <label id="number1">First Number</label>
+        <input type="number" id="number1" >
+        <label id="number2">Second Number</label>
+        <input type="number" id="number2" >
+        <br>
+        <br>
+        <button id="sum" onClick="sum()">Sum</button> 
+        <button id="substract" onClick="subtract()">Substract</button>
+        <button id="divide" onClick="divide()">Divide</button>
+        <button id="multiply" onClick="multiply()">Multiply</button>
+        <button id="all" onClick="all()">+-*/</button>
+        
+        <h3>Result: <span id="result">0</span></h3>
+        
+        <script>
+           
+            function sum(n1, n2) {
+                var n1 = parseFloat(document.getElementById('number1').value),
+                    n2 = parseFloat(document.getElementById('number2').value);
+                    return n1+n2; }
+
+                    function subtract(n1, n2) {
+                var n1 = parseFloat(document.getElementById('number1').value),
+                    n2 = parseFloat(document.getElementById('number2').value);
+                    return n1-n2; }     
+
+                    function divide(n1, n2) {
+                var n1 = parseFloat(document.getElementById('number1').value),
+                    n2 = parseFloat(document.getElementById('number2').value);
+                    return n1/n2; }
+
+                    function multiply(n1, n2) {
+                var n1 = parseFloat(document.getElementById('number1').value),
+                    n2 = parseFloat(document.getElementById('number2').value);
+                    return n1*n2; }
+
+                    function all(n1, n2) {
+                var n1 = parseFloat(document.getElementById('number1').value),
+                    n2 = parseFloat(document.getElementById('number2').value);
+                    return n1+n2-n1/n2*n1; }
+                
+
+            function printResult(result) {
+                document.getElementById('result').innerHTML =  result ;
+            }
+        
+        </script>
+    
+</body>
+</html>
