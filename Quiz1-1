@@ -1,0 +1,25 @@
+function incrementNumber () {
+
+    let num = 1;
+    console.log (num++);
+}
+incrementNumber (); // 1
+incrementNumber (); // 2
+incrementNumber (); //3
+incrementNumber (); //4
+incrementNumber (); //5
+
+/* Write Js Code To Solve These Problems:
+1- Fizz buzz Game  
+2- C (n, K)= (K power n) = n!/k!(n-k)! */
+
+// problem 2
+
+function C (n,K) {
+    let C = (K Math.power n)
+    let n = 1;
+    let K = 2;
+
+    console.log (C);
+
+}
